@@ -1,0 +1,185 @@
+body{
+    background-color: #F8F8FF;
+    font-family: 'Segoe UI';
+    
+}
+
+.layout{
+    display: flex;
+    background-color: #fff;
+    height: 7vh;
+    border-bottom: 1px solid #C0C0C0;
+    align-items: center;
+    justify-content: space-evenly;
+    padding-left: 75px;
+    padding-right: 75px;
+}
+
+.logo img{
+    width: 103px;
+    height: 29px;
+}
+
+.procurar{
+    display: flex;
+    background-color: #DCDCDC;
+    width: 35vh;
+    height: 35px;
+    border-radius: 7px;
+    align-items: center;
+    
+}
+
+.procurar img{
+    margin-left: 10px;
+    width: 20px;
+    height: 20px;
+}
+
+.procurar p{
+    margin-left: 10px;
+    color: #A9A9A9;
+}
+
+.layout-direita{
+    display: flex;
+    width: 30vh;
+    justify-content: space-between;
+}
+
+.layout-direita img{
+    width: 25px;
+    height: 25px;
+}
+
+.perfil-layout{
+    border: 1px solid #000;
+    border-radius: 50%;
+}
+
+.container-perfil{
+    display: flex;
+    justify-content: flex-start;
+    margin-top: 40px;
+    padding-left: 300px;
+    
+}
+
+.imagem-perfil img{
+    border-radius: 50%;
+}
+
+.info{
+    display: flex;
+    flex-direction: column;
+    margin-left: 100px;
+    
+}
+
+.ig{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 250px;
+
+}
+
+.nick{
+    font-size: 24px;
+    font-weight: 200;
+}
+
+.editar-perfil{
+    padding: 5px 10px 5px 10px ;
+    border: 1px solid #D3D3D3;
+    border-radius: 5px;
+    font-size: small;
+    font-weight: 500;
+}
+
+.engrenagem{
+    width: 25px;
+    height: 25px;
+}
+
+.follow{
+    display: flex;
+    justify-content: space-between;
+    width: 500px;
+    
+}
+
+.follow b{
+    font-weight: 500;
+}
+
+.informacoes a{
+    text-decoration: none;
+    color: #4169E1;
+}
+
+.informacoes b{
+    font-weight: 500;
+}
+
+.destaque{
+    display: flex;
+    flex-direction: column;
+    padding-left: 300px;
+    margin-top: 30px;
+}
+
+.destaque img{
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    padding: 2px;
+    border: 2px solid #C0C0C0;
+}
+
+.postagens{
+    display: flex;
+    justify-content: center;
+    margin-left: 300px;
+    margin-right: 300px;
+    border-top: 1px solid #808080;
+}
+
+.postagens img{
+    width: 20px;
+    height: 20px;
+}
+
+.menu{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    width: 400px;
+    padding-top: 30px;
+    
+}
+
+.menu img{
+    padding-left: 40px;
+}
+
+.menu p{
+    font-size: small;
+    color: #808080;
+}
+
+
+.fotos{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    width: 850px;
+    margin-left: 300px;
+    margin-right: 300px;
+}
+
+.fotos img {
+    margin: 10px;
+    width: 250px;
+    height: 250px;
+}
